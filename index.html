@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie List</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Movie List</h1>
+      <section>
+        <form>
+          <input placeholder="Add Movie" />
+          <button>Add</button>
+        </form>
+      </section>
+      <ul>
+        <li id="starWars">
+          Star Wars: Episode IV - A New Hope
+          <button onclick="crossOut()">x</button>
+        </li>
+        <li>The GodFather<button>x</button></li>
+      </ul>
+      <aside id="message"></aside>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
